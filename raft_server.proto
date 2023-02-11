@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+service RaftServer {
+  rpc RequestVote (VoteRequest) returns (VoteReply) {}
+  rpc SendHeartbeat (Heartbeat) returns (Empty) {}
+}
+
+/*VoteRequest используется кандидатом для запроса голосов*/
+
+message VoteRequest {
+  int32 term = 1;  // Текущий терм, согласно кандидату
+  int32 candidateID = 2;  // ID кандидата
+  int32 lastLogIndex = 3;  // Индекс последнего элемента лога кандидата
+  int32 lastLogTerm = 4;  // Терм последнего элемента лога кандидата
+}
+
+/*VoteReply - ответ на запрос голосов*/
+
+message VoteReply {
+  int32 term = 1;  // Текущий терм, согласно голосующему
+  bool voteGranted = 2;  // Голос
+}
+
+/*Heartbeat - сигнал, который рассылает действующий лидер во избежание таймаута*/
+
+message Heartbeat {
+  int32 candidateID = 1;  // ID лидера
+}
+
+message Empty {
+
+}

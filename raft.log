@@ -1,0 +1,562 @@
+INFO:root:Submitting server 1
+INFO:root:Submitting client 1
+INFO:root:Submitting server 2
+INFO:root:Submitting server 3
+INFO:root:Submitting client 2
+INFO:root:Submitting client 3
+INFO:root:Submitting server 4
+INFO:root:Submitting server 5
+INFO:root:Submitting client 4
+INFO:root:Submitting client 5
+INFO:root:Node 4 timed out at 0.1513049602508545 s with the limit of 0.15 s
+
+DEBUG:root:Node 4 created a stub using channel localhost:50051
+INFO:root:Node 2 timed out at 0.19489264488220215 s with the limit of 0.18 s
+
+INFO:root:Node 3 timed out at 0.19489264488220215 s with the limit of 0.18 s
+
+INFO:root:Node 1 timed out at 0.23671507835388184 s with the limit of 0.21 s
+
+INFO:root:Node 5 timed out at 0.19289302825927734 s with the limit of 0.18 s
+
+DEBUG:root:Node 2 created a stub using channel localhost:50051
+INFO:root:Node 1 voted for 4
+
+DEBUG:root:Node 3 created a stub using channel localhost:50051
+DEBUG:root:Node 1 created a stub using channel localhost:50052
+DEBUG:root:Node 5 created a stub using channel localhost:50051
+INFO:root:Node 4 requested vote from node 1
+
+DEBUG:root:Node 4 created a stub using channel localhost:50052
+INFO:root:Node 1 rejected VoteRequest from node 2
+
+INFO:root:Node 2 requested vote from node 1
+
+DEBUG:root:Node 2 created a stub using channel localhost:50053
+INFO:root:Node 1 rejected VoteRequest from node 3
+
+INFO:root:Node 3 requested vote from node 1
+
+DEBUG:root:Node 3 created a stub using channel localhost:50052
+INFO:root:Node 1 rejected VoteRequest from node 5
+
+INFO:root:Node 5 requested vote from node 1
+
+DEBUG:root:Node 5 created a stub using channel localhost:50052
+INFO:root:Node 3 voted for 2
+
+INFO:root:Node 2 voted for 1
+
+INFO:root:Node 2 requested vote from node 3
+
+INFO:root:Node 1 requested vote from node 2
+
+DEBUG:root:Node 2 created a stub using channel localhost:50054
+INFO:root:Node 2 rejected VoteRequest from node 4
+
+DEBUG:root:Node 1 created a stub using channel localhost:50053
+INFO:root:Node 2 rejected VoteRequest from node 3
+
+INFO:root:Node 4 requested vote from node 2
+
+DEBUG:root:Node 4 created a stub using channel localhost:50053
+INFO:root:Node 2 rejected VoteRequest from node 5
+
+INFO:root:Node 3 requested vote from node 2
+
+INFO:root:Node 5 requested vote from node 2
+
+DEBUG:root:Node 3 created a stub using channel localhost:50054
+DEBUG:root:Node 5 created a stub using channel localhost:50053
+INFO:root:Node 4 voted for 2
+
+INFO:root:Node 3 rejected VoteRequest from node 4
+
+INFO:root:Node 3 rejected VoteRequest from node 1
+
+INFO:root:Node 2 requested vote from node 4
+
+INFO:root:Node 4 rejected VoteRequest from node 3
+
+INFO:root:Node 4 requested vote from node 3
+
+INFO:root:Node 1 requested vote from node 3
+
+DEBUG:root:Node 2 created a stub using channel localhost:50055
+INFO:root:Node 3 rejected VoteRequest from node 5
+
+DEBUG:root:Node 4 created a stub using channel localhost:50055
+INFO:root:Node 3 requested vote from node 4
+
+DEBUG:root:Node 1 created a stub using channel localhost:50054
+INFO:root:Node 5 requested vote from node 3
+
+DEBUG:root:Node 5 created a stub using channel localhost:50054
+DEBUG:root:Node 3 created a stub using channel localhost:50055
+INFO:root:Node 4 rejected VoteRequest from node 1
+
+INFO:root:Node 4 rejected VoteRequest from node 5
+
+INFO:root:Node 5 voted for 2
+
+INFO:root:Node 1 requested vote from node 4
+
+INFO:root:Node 5 rejected VoteRequest from node 4
+
+INFO:root:Node 5 requested vote from node 4
+
+INFO:root:Node 5 rejected VoteRequest from node 3
+
+DEBUG:root:Node 1 created a stub using channel localhost:50055
+INFO:root:Node 2 requested vote from node 5
+
+INFO:root:Node 4 requested vote from node 5
+
+INFO:root:Node 3 requested vote from node 5
+
+INFO:root:Node 2 became the leader
+
+INFO:root:Node 5 rejected VoteRequest from node 1
+
+INFO:root:Node 1 requested vote from node 5
+
+INFO:root:Node 1 timed out at 0.47598886489868164 s with the limit of 0.21 s
+
+INFO:root:Node 2 timed out at 0.4351661205291748 s with the limit of 0.18 s
+
+INFO:root:Node 3 timed out at 0.4351661205291748 s with the limit of 0.18 s
+
+INFO:root:Node 4 timed out at 0.43280768394470215 s with the limit of 0.15 s
+
+INFO:root:Node 5 timed out at 0.43295860290527344 s with the limit of 0.18 s
+
+DEBUG:root:Node 1 created a stub using channel localhost:50052
+DEBUG:root:Node 2 created a stub using channel localhost:50051
+DEBUG:root:Node 3 created a stub using channel localhost:50051
+DEBUG:root:Node 4 created a stub using channel localhost:50051
+DEBUG:root:Node 5 created a stub using channel localhost:50051
+INFO:root:Node 2 rejected VoteRequest from node 1
+
+INFO:root:Node 1 requested vote from node 2
+
+INFO:root:Node 1 rejected VoteRequest from node 3
+
+DEBUG:root:Node 1 created a stub using channel localhost:50053
+INFO:root:Node 1 rejected VoteRequest from node 4
+
+INFO:root:Node 1 rejected VoteRequest from node 2
+
+INFO:root:Node 3 requested vote from node 1
+
+INFO:root:Node 1 rejected VoteRequest from node 5
+
+DEBUG:root:Node 3 created a stub using channel localhost:50052
+INFO:root:Node 4 requested vote from node 1
+
+INFO:root:Node 2 requested vote from node 1
+
+INFO:root:Node 5 requested vote from node 1
+
+DEBUG:root:Node 4 created a stub using channel localhost:50052
+DEBUG:root:Node 2 created a stub using channel localhost:50053
+INFO:root:Node 3 rejected VoteRequest from node 1
+
+DEBUG:root:Node 5 created a stub using channel localhost:50052
+INFO:root:Node 2 rejected VoteRequest from node 3
+
+INFO:root:Node 3 requested vote from node 2
+
+INFO:root:Node 1 requested vote from node 3
+
+DEBUG:root:Node 3 created a stub using channel localhost:50054
+DEBUG:root:Node 1 created a stub using channel localhost:50054
+INFO:root:Node 3 rejected VoteRequest from node 2
+
+INFO:root:Node 2 rejected VoteRequest from node 4
+
+INFO:root:Node 2 rejected VoteRequest from node 5
+
+INFO:root:Node 2 requested vote from node 3
+
+DEBUG:root:Node 2 created a stub using channel localhost:50054
+INFO:root:Node 5 requested vote from node 2
+
+INFO:root:Node 4 requested vote from node 2
+
+DEBUG:root:Node 5 created a stub using channel localhost:50053
+DEBUG:root:Node 4 created a stub using channel localhost:50053
+INFO:root:Node 4 rejected VoteRequest from node 2
+
+INFO:root:Node 4 rejected VoteRequest from node 1
+
+INFO:root:Node 2 requested vote from node 4
+
+INFO:root:Node 4 rejected VoteRequest from node 3
+
+DEBUG:root:Node 2 created a stub using channel localhost:50055
+INFO:root:Node 1 requested vote from node 4
+
+INFO:root:Node 3 requested vote from node 4
+
+INFO:root:Node 3 rejected VoteRequest from node 5
+
+INFO:root:Node 3 rejected VoteRequest from node 4
+
+DEBUG:root:Node 1 created a stub using channel localhost:50055
+DEBUG:root:Node 3 created a stub using channel localhost:50055
+INFO:root:Node 5 requested vote from node 3
+
+INFO:root:Node 4 requested vote from node 3
+
+DEBUG:root:Node 5 created a stub using channel localhost:50054
+INFO:root:Node 5 rejected VoteRequest from node 2
+
+DEBUG:root:Node 4 created a stub using channel localhost:50055
+INFO:root:Node 5 rejected VoteRequest from node 1
+
+INFO:root:Node 2 requested vote from node 5
+
+INFO:root:Node 5 rejected VoteRequest from node 3
+
+INFO:root:Node 1 requested vote from node 5
+
+INFO:root:Node 3 requested vote from node 5
+
+INFO:root:Node 4 rejected VoteRequest from node 5
+
+INFO:root:Node 5 rejected VoteRequest from node 4
+
+INFO:root:Node 5 requested vote from node 4
+
+INFO:root:Node 4 requested vote from node 5
+
+INFO:root:Node 3 timed out at 0.5768916606903076 s with the limit of 0.18 s
+
+INFO:root:Node 5 timed out at 0.57389235496521 s with the limit of 0.18 s
+
+INFO:root:Node 4 timed out at 0.5744035243988037 s with the limit of 0.15 s
+
+INFO:root:Node 1 timed out at 0.6182255744934082 s with the limit of 0.21 s
+
+INFO:root:Node 2 timed out at 0.5774028301239014 s with the limit of 0.18 s
+
+DEBUG:root:Node 3 created a stub using channel localhost:50051
+DEBUG:root:Node 5 created a stub using channel localhost:50051
+DEBUG:root:Node 4 created a stub using channel localhost:50051
+DEBUG:root:Node 1 created a stub using channel localhost:50052
+DEBUG:root:Node 2 created a stub using channel localhost:50051
+INFO:root:Node 1 rejected VoteRequest from node 5
+
+INFO:root:Node 1 rejected VoteRequest from node 3
+
+INFO:root:Node 1 rejected VoteRequest from node 2
+
+INFO:root:Node 1 rejected VoteRequest from node 4
+
+INFO:root:Node 3 requested vote from node 1
+
+INFO:root:Node 5 requested vote from node 1
+
+INFO:root:Node 2 rejected VoteRequest from node 1
+
+DEBUG:root:Node 3 created a stub using channel localhost:50052
+INFO:root:Node 4 requested vote from node 1
+
+INFO:root:Node 2 requested vote from node 1
+
+DEBUG:root:Node 5 created a stub using channel localhost:50052
+DEBUG:root:Node 4 created a stub using channel localhost:50052
+INFO:root:Node 1 requested vote from node 2
+
+DEBUG:root:Node 2 created a stub using channel localhost:50053
+INFO:root:Node 2 rejected VoteRequest from node 3
+
+DEBUG:root:Node 1 created a stub using channel localhost:50053
+INFO:root:Node 3 requested vote from node 2
+
+DEBUG:root:Node 3 created a stub using channel localhost:50054
+INFO:root:Node 2 rejected VoteRequest from node 5
+
+INFO:root:Node 2 rejected VoteRequest from node 4
+
+INFO:root:Node 5 requested vote from node 2
+
+DEBUG:root:Node 5 created a stub using channel localhost:50053
+INFO:root:Node 4 requested vote from node 2
+
+DEBUG:root:Node 4 created a stub using channel localhost:50053
+INFO:root:Node 3 rejected VoteRequest from node 2
+
+INFO:root:Node 3 rejected VoteRequest from node 1
+
+INFO:root:Node 3 rejected VoteRequest from node 5
+
+INFO:root:Node 4 rejected VoteRequest from node 3
+
+INFO:root:Node 2 requested vote from node 3
+
+INFO:root:Node 1 requested vote from node 3
+
+INFO:root:Node 3 rejected VoteRequest from node 4
+
+INFO:root:Node 5 requested vote from node 3
+
+DEBUG:root:Node 2 created a stub using channel localhost:50054
+INFO:root:Node 3 requested vote from node 4
+
+DEBUG:root:Node 1 created a stub using channel localhost:50054
+DEBUG:root:Node 5 created a stub using channel localhost:50054
+INFO:root:Node 4 requested vote from node 3
+
+DEBUG:root:Node 3 created a stub using channel localhost:50055
+DEBUG:root:Node 4 created a stub using channel localhost:50055
+INFO:root:Node 4 rejected VoteRequest from node 2
+
+INFO:root:Node 4 rejected VoteRequest from node 1
+
+INFO:root:Node 4 rejected VoteRequest from node 5
+
+INFO:root:Node 1 requested vote from node 4
+
+INFO:root:Node 2 requested vote from node 4
+
+INFO:root:Node 5 requested vote from node 4
+
+INFO:root:Node 5 rejected VoteRequest from node 3
+
+DEBUG:root:Node 1 created a stub using channel localhost:50055
+INFO:root:Node 5 rejected VoteRequest from node 4
+
+DEBUG:root:Node 2 created a stub using channel localhost:50055
+INFO:root:Node 3 requested vote from node 5
+
+INFO:root:Node 4 requested vote from node 5
+
+INFO:root:Node 5 rejected VoteRequest from node 1
+
+INFO:root:Node 1 requested vote from node 5
+
+INFO:root:Node 5 rejected VoteRequest from node 2
+
+INFO:root:Node 2 requested vote from node 5
+
+INFO:root:Node 2 timed out at 0.6553173065185547 s with the limit of 0.18 s
+
+INFO:root:Node 4 timed out at 0.652318000793457 s with the limit of 0.15 s
+
+INFO:root:Node 1 timed out at 0.6961400508880615 s with the limit of 0.21 s
+
+INFO:root:Node 3 timed out at 0.6553173065185547 s with the limit of 0.18 s
+
+INFO:root:Node 5 timed out at 0.6533188819885254 s with the limit of 0.18 s
+
+DEBUG:root:Node 2 created a stub using channel localhost:50051
+DEBUG:root:Node 4 created a stub using channel localhost:50051
+DEBUG:root:Node 1 created a stub using channel localhost:50052
+DEBUG:root:Node 3 created a stub using channel localhost:50051
+DEBUG:root:Node 5 created a stub using channel localhost:50051
+INFO:root:Node 1 rejected VoteRequest from node 3
+
+INFO:root:Node 1 rejected VoteRequest from node 4
+
+INFO:root:Node 3 requested vote from node 1
+
+INFO:root:Node 2 rejected VoteRequest from node 1
+
+INFO:root:Node 4 requested vote from node 1
+
+DEBUG:root:Node 3 created a stub using channel localhost:50052
+INFO:root:Node 1 rejected VoteRequest from node 2
+
+INFO:root:Node 1 rejected VoteRequest from node 5
+
+DEBUG:root:Node 4 created a stub using channel localhost:50052
+INFO:root:Node 1 requested vote from node 2
+
+DEBUG:root:Node 1 created a stub using channel localhost:50053
+INFO:root:Node 2 requested vote from node 1
+
+DEBUG:root:Node 2 created a stub using channel localhost:50053
+INFO:root:Node 5 requested vote from node 1
+
+DEBUG:root:Node 5 created a stub using channel localhost:50052
+INFO:root:Node 2 rejected VoteRequest from node 3
+
+INFO:root:Node 2 rejected VoteRequest from node 4
+
+INFO:root:Node 3 requested vote from node 2
+
+DEBUG:root:Node 3 created a stub using channel localhost:50054
+INFO:root:Node 4 requested vote from node 2
+
+INFO:root:Node 3 rejected VoteRequest from node 2
+
+INFO:root:Node 3 rejected VoteRequest from node 1
+
+DEBUG:root:Node 4 created a stub using channel localhost:50053
+INFO:root:Node 2 rejected VoteRequest from node 5
+
+INFO:root:Node 2 requested vote from node 3
+
+INFO:root:Node 1 requested vote from node 3
+
+DEBUG:root:Node 2 created a stub using channel localhost:50054
+INFO:root:Node 5 requested vote from node 2
+
+DEBUG:root:Node 1 created a stub using channel localhost:50054
+DEBUG:root:Node 5 created a stub using channel localhost:50053
+INFO:root:Node 4 rejected VoteRequest from node 3
+
+INFO:root:Node 3 rejected VoteRequest from node 4
+
+INFO:root:Node 4 rejected VoteRequest from node 2
+
+INFO:root:Node 4 requested vote from node 3
+
+INFO:root:Node 3 requested vote from node 4
+
+INFO:root:Node 2 requested vote from node 4
+
+DEBUG:root:Node 4 created a stub using channel localhost:50055
+INFO:root:Node 4 rejected VoteRequest from node 1
+
+DEBUG:root:Node 3 created a stub using channel localhost:50055
+DEBUG:root:Node 2 created a stub using channel localhost:50055
+INFO:root:Node 3 rejected VoteRequest from node 5
+
+INFO:root:Node 1 requested vote from node 4
+
+DEBUG:root:Node 1 created a stub using channel localhost:50055
+INFO:root:Node 5 requested vote from node 3
+
+DEBUG:root:Node 5 created a stub using channel localhost:50054
+INFO:root:Node 5 rejected VoteRequest from node 4
+
+INFO:root:Node 5 rejected VoteRequest from node 2
+
+INFO:root:Node 5 rejected VoteRequest from node 3
+
+INFO:root:Node 5 rejected VoteRequest from node 1
+
+INFO:root:Node 4 requested vote from node 5
+
+INFO:root:Node 2 requested vote from node 5
+
+INFO:root:Node 3 requested vote from node 5
+
+INFO:root:Node 1 requested vote from node 5
+
+INFO:root:Node 4 rejected VoteRequest from node 5
+
+INFO:root:Node 5 requested vote from node 4
+
+INFO:root:Node 5 timed out at 0.730158805847168 s with the limit of 0.18 s
+
+INFO:root:Node 1 timed out at 0.7739808559417725 s with the limit of 0.21 s
+
+INFO:root:Node 4 timed out at 0.730158805847168 s with the limit of 0.15 s
+
+INFO:root:Node 3 timed out at 0.7331581115722656 s with the limit of 0.18 s
+
+INFO:root:Node 2 timed out at 0.7331581115722656 s with the limit of 0.18 s
+
+DEBUG:root:Node 5 created a stub using channel localhost:50051
+DEBUG:root:Node 1 created a stub using channel localhost:50052
+DEBUG:root:Node 4 created a stub using channel localhost:50051
+DEBUG:root:Node 3 created a stub using channel localhost:50051
+DEBUG:root:Node 2 created a stub using channel localhost:50051
+INFO:root:Node 1 rejected VoteRequest from node 5
+
+INFO:root:Node 1 rejected VoteRequest from node 2
+
+INFO:root:Node 1 rejected VoteRequest from node 4
+
+INFO:root:Node 1 rejected VoteRequest from node 3
+
+INFO:root:Node 5 requested vote from node 1
+
+INFO:root:Node 2 requested vote from node 1
+
+INFO:root:Node 2 rejected VoteRequest from node 1
+
+INFO:root:Node 4 requested vote from node 1
+
+INFO:root:Node 3 requested vote from node 1
+
+DEBUG:root:Node 5 created a stub using channel localhost:50052
+DEBUG:root:Node 2 created a stub using channel localhost:50053
+DEBUG:root:Node 4 created a stub using channel localhost:50052
+INFO:root:Node 1 requested vote from node 2
+
+DEBUG:root:Node 3 created a stub using channel localhost:50052
+DEBUG:root:Node 1 created a stub using channel localhost:50053
+INFO:root:Node 2 rejected VoteRequest from node 5
+
+INFO:root:Node 5 requested vote from node 2
+
+DEBUG:root:Node 5 created a stub using channel localhost:50053
+INFO:root:Node 2 rejected VoteRequest from node 4
+
+INFO:root:Node 3 rejected VoteRequest from node 1
+
+INFO:root:Node 3 rejected VoteRequest from node 2
+
+INFO:root:Node 2 rejected VoteRequest from node 3
+
+INFO:root:Node 4 requested vote from node 2
+
+INFO:root:Node 1 requested vote from node 3
+
+INFO:root:Node 2 requested vote from node 3
+
+INFO:root:Node 3 rejected VoteRequest from node 5
+
+INFO:root:Node 3 requested vote from node 2
+
+DEBUG:root:Node 4 created a stub using channel localhost:50053
+DEBUG:root:Node 1 created a stub using channel localhost:50054
+DEBUG:root:Node 2 created a stub using channel localhost:50054
+DEBUG:root:Node 3 created a stub using channel localhost:50054
+INFO:root:Node 5 requested vote from node 3
+
+DEBUG:root:Node 5 created a stub using channel localhost:50054
+INFO:root:Node 3 rejected VoteRequest from node 4
+
+INFO:root:Node 4 requested vote from node 3
+
+DEBUG:root:Node 4 created a stub using channel localhost:50055
+INFO:root:Node 4 rejected VoteRequest from node 1
+
+INFO:root:Node 1 requested vote from node 4
+
+DEBUG:root:Node 1 created a stub using channel localhost:50055
+INFO:root:Node 4 rejected VoteRequest from node 5
+
+INFO:root:Node 4 rejected VoteRequest from node 3
+
+INFO:root:Node 5 requested vote from node 4
+
+INFO:root:Node 5 rejected VoteRequest from node 4
+
+INFO:root:Node 3 requested vote from node 4
+
+INFO:root:Node 5 rejected VoteRequest from node 1
+
+INFO:root:Node 4 rejected VoteRequest from node 2
+
+DEBUG:root:Node 3 created a stub using channel localhost:50055
+INFO:root:Node 1 requested vote from node 5
+
+INFO:root:Node 4 requested vote from node 5
+
+INFO:root:Node 2 requested vote from node 4
+
+DEBUG:root:Node 2 created a stub using channel localhost:50055
+INFO:root:Node 5 rejected VoteRequest from node 3
+
+INFO:root:Node 3 requested vote from node 5
+
+INFO:root:Node 5 rejected VoteRequest from node 2
+
+INFO:root:Node 2 requested vote from node 5
+
