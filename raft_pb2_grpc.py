@@ -5,7 +5,7 @@ import grpc
 import raft_pb2 as raft__pb2
 
 
-class RaftServerStub(object):
+class ServerStub(object):
     """Missing associated documentation comment in .proto file."""
 
     def __init__(self, channel):
@@ -14,42 +14,42 @@ class RaftServerStub(object):
         Args:
             channel: A grpc.Channel.
         """
-        self.RequestVote = channel.unary_unary(
-                '/hellowrld.RaftServer/RequestVote',
-                request_serializer=raft__pb2.VoteRequest.SerializeToString,
-                response_deserializer=raft__pb2.VoteReply.FromString,
+        self.GetVote = channel.unary_unary(
+                '/chat.Server/GetVote',
+                request_serializer=raft__pb2.Candidate.SerializeToString,
+                response_deserializer=raft__pb2.Vote.FromString,
                 )
 
 
-class RaftServerServicer(object):
+class ServerServicer(object):
     """Missing associated documentation comment in .proto file."""
 
-    def RequestVote(self, request, context):
+    def GetVote(self, request, context):
         """Missing associated documentation comment in .proto file."""
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
 
-def add_RaftServerServicer_to_server(servicer, server):
+def add_ServerServicer_to_server(servicer, server):
     rpc_method_handlers = {
-            'RequestVote': grpc.unary_unary_rpc_method_handler(
-                    servicer.RequestVote,
-                    request_deserializer=raft__pb2.VoteRequest.FromString,
-                    response_serializer=raft__pb2.VoteReply.SerializeToString,
+            'GetVote': grpc.unary_unary_rpc_method_handler(
+                    servicer.GetVote,
+                    request_deserializer=chat__pb2.Candidate.FromString,
+                    response_serializer=chat__pb2.Vote.SerializeToString,
             ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
-            'hellowrld.RaftServer', rpc_method_handlers)
+            'chat.Server', rpc_method_handlers)
     server.add_generic_rpc_handlers((generic_handler,))
 
 
  # This class is part of an EXPERIMENTAL API.
-class RaftServer(object):
+class Server(object):
     """Missing associated documentation comment in .proto file."""
 
     @staticmethod
-    def RequestVote(request,
+    def GetVote(request,
             target,
             options=(),
             channel_credentials=None,
@@ -59,8 +59,8 @@ class RaftServer(object):
             wait_for_ready=None,
             timeout=None,
             metadata=None):
-        return grpc.experimental.unary_unary(request, target, '/hellowrld.RaftServer/RequestVote',
-            raft__pb2.VoteRequest.SerializeToString,
-            raft__pb2.VoteReply.FromString,
+        return grpc.experimental.unary_unary(request, target, '/chat.Server/GetVote',
+            chat__pb2.Candidate.SerializeToString,
+            chat__pb2.Vote.FromString,
             options, channel_credentials,
             insecure, call_credentials, compression, wait_for_ready, timeout, metadata)
